@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			You Lose: Guess the Number
+		</title>
+	</head>
+	<body>
+		<h1>Guess the Number!</h1>
+		<p> Sorry, your guess {{ guess }} was incorrect. The correct answer was {{ session['answer']}}.</p>
+		<p><a href="{{ url_for('index') }}">Play again</a></p>
+	</body>
+</html>
